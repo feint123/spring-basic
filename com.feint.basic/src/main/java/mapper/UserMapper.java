@@ -10,6 +10,8 @@ import org.mybatis.spring.annotation.MapperScan;
  */
 @Mapper
 public interface UserMapper {
+
+    // 添加用户
     @Insert("insert into user(name, age) values(#{name},#{age})")
     void addUser(@Param("name") String name,@Param("age") int age);
 }
