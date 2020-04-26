@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
  * Created by feint on 16/9/8.
  */
 public class User {
+    // id
     private int id;
     private int age;
     private String name;
